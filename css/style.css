@@ -9,6 +9,9 @@ body{
   margin-bottom: 60px; /* Margin bottom by footer height */ 
 } 
 
+.row .color{
+  background-color: #c1f1ef;
+}
 .container{
   margin-top: 60px;
 }
