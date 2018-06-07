@@ -1,9 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-.selector-for-some-widget {
-    box-sizing: border-box;
-}
 
 body{
   margin-bottom: 60px; /* Margin bottom by footer height */ 
@@ -15,6 +12,7 @@ body{
 .container{
   margin-top: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
