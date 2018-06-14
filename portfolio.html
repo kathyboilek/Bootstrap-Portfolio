@@ -17,7 +17,6 @@
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 </head>
@@ -47,31 +46,45 @@
                  Portfolio
                  <hr>
                 <div class="row">
-                    <div class="col-8 col-sm-6">
-                        <div class="card" style="width: 12rem;">
-                            <img src="images/Capture.PNG" width="163" height="200" alt="TCM Must See Movies"/>
-                        <div class="card-body">
-                          <p class="card-text"><a href="https://kathyboilek.github.io/Word-Guess-Game/" target="_blank">Word Guess Game</a></p>
-                        </div>
+
+                <!-- Card Groups -->
+                <div class="card-deck">
+                    <div class="card">
+                      <img class="card-img-top" src="images/WordGuessGame.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://kathyboilek.github.io/Word-Guess-Game/" target="_blank">Word Guess Game</a></h5>
+                        <p class="card-text">Similar to Hang Man. Guess what the 10 Must See Movies are.</p>
                       </div>
                     </div>
-                    <div class="col-4 col-sm-6">
-                        <div class="card" style="width: 12rem;">
-                            <img src="images/0101181049.jpg" width="100" height="122" alt="Card image cap"/> 
-                        <div class="card-body">
-                              <p class="card-text">Next assignment will go here</p>
-                            </div>
-                        </div>
+                    <div class="card">
+                      <img class="card-img-top" src="images/unit4game.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://kathyboilek.github.io/unit-4-game/">Crystal Collection Game</a></h5>
+                        <p class="card-text">There will be four crystals displayed as buttons on the page. Each crystal will have random numbers set for each game.  Goal is to figure out how to get to the Random Number Target without going over.</p>
+                      </div>
                     </div>
+                    <div class="card">
+                      <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Next Project</h5>
+                        <p class="card-text">Description of project</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+
             </div>
         </div>        
     </div>
 
 
+    <!-- Sticky Footer     -->
     <footer class="footer">
-        <div align="center"><sup>&copy;</sup>2018</div>          
-    </footer>	
+        <div class="container">
+          <span class="text-muted"><sup>&copy;</sup>2018</span>
+        </div>
+    </footer>
+
     </body>
 </html>
 

@@ -1,18 +1,24 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-body{
-  margin-bottom: 60px; /* Margin bottom by footer height */ 
-} 
-
 .row .color{
   background-color: #c1f1ef;
 }
-.container{
-  margin-top: 60px;
-}
 
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
 .footer {
   position: absolute;
   bottom: 0;
@@ -21,3 +27,4 @@ body{
   line-height: 60px; /* Vertically center the text there */
   background-color: #4aaaa5;
 }
+
